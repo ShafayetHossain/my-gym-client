@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input[type="date"], input[type="time"] {
+    color-scheme: white; /* Changes the icon color in dark mode */
+  }
