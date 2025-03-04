@@ -1,8 +1,7 @@
-# React + Vite
+# My-Gym
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My-Gym site is a web application where users can explore, search, and watch details about His/her Gym Activities. Depending on its features, it can serve as a database, streaming service, and overall a traking todo work list a gym workout monitor.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://movie-portal-247.netlify.app/
