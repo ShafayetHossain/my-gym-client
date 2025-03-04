@@ -4,4 +4,4 @@ My-Gym site is a web application where users can explore, search, and watch deta
 
 ## Live Link
 
-https://movie-portal-247.netlify.app/
+https://my-gym247.netlify.app/
