@@ -13,7 +13,7 @@ const AddSchedule = () => {
 
     const newSchedule = { title, day, date, time, completeTask };
 
-    fetch("http://localhost:3000/gym", {
+    fetch("https://my-gym-server.vercel.app/gym", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -44,7 +44,7 @@ const CardSchedule = ({ user, users, index, setUsers }) => {
         confirmButtonText: "Yes, delete it!",
       }).then((result) => {
         if (result.isConfirmed) {
-          fetch(`http://localhost:3000/gym/${id}`, {
+          fetch(`https://my-gym-server.vercel.app/gym/${id}`, {
             method: "DELETE",
           })
             .then((res) => res.json())
@@ -71,7 +71,7 @@ const CardSchedule = ({ user, users, index, setUsers }) => {
   const handleCheckTask = (id) => {
 
     const updateTask = { check: !check };
-    fetch(`http://localhost:3000/gymtask/${id}`, {
+    fetch(`https://my-gym-server.vercel.app/gymtask/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

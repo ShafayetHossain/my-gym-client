@@ -32,12 +32,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/all-schedule",
-        loader: () => fetch("http://localhost:3000/gym"),
+        loader: () => fetch("https://my-gym-server.vercel.app/gym"),
         element: <AllSchedule></AllSchedule>,
       },
       {
         path: "/update-schedule/:id",
-        loader: ({ params }) => fetch(`http://localhost:3000/gym/${params.id}`),
+        loader: ({ params }) => fetch(`https://my-gym-server.vercel.app/gym/${params.id}`),
         element: (
           <PrivateRoute>
             <UpdateUser></UpdateUser>

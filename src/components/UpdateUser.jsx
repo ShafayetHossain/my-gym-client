@@ -20,7 +20,7 @@ const UpdateUser = () => {
 
     const updateSchedule = { title, day, date, time };
 
-    fetch(`http://localhost:3000/gym/${_id}`, {
+    fetch(`https://my-gym-server.vercel.app/gym/${_id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

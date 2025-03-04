@@ -8,7 +8,7 @@ const AllSchedule = () => {
 
   const handleSearch = (event) => {
     const searchData = event.target.value;
-    fetch(`http://localhost:3000/gym?searchParams=${searchData}`)
+    fetch(`https://my-gym-server.vercel.app/gym?searchParams=${searchData}`)
       .then((res) => res.json())
       .then((data) => setUsers(data));
   };
